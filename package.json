@@ -1,0 +1,19 @@
+{
+  "name": "n8n-nodes-redis-merge-messages",
+  "version": "0.1.0",
+  "description": "Custom n8n node: merge messages in Redis by id, output merged message and match result",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "keywords": [
+    "n8n",
+    "n8n-community-node",
+    "redis",
+    "automation"
+  ],
+  "dependencies": {
+    "redis": "^4.6.7"
+  }
+}
